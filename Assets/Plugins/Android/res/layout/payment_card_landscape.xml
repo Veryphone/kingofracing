@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/payment_background"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/payment_dialog_background"
+        android:padding="5dp" >
+
+        <LinearLayout
+            android:id="@+id/layout_root"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp" >
+
+            <TextView
+                android:id="@+id/txt_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="5dp"
+                android:text="@string/payment_vina"
+                android:textColor="@color/payment_title_text_color"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TableLayout
+                    android:id="@+id/card_main"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <TableRow
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center" >
+
+                        <EditText
+                            android:id="@+id/edt_card_code"
+                            android:layout_width="250dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:background="@drawable/payment_input_bg"
+                            android:gravity="center_vertical"
+                            android:hint="@string/payment_card_code_hint"
+                            android:imeOptions="flagNoExtractUi"
+                            android:inputType="numberDecimal"
+                            android:maxLength="14"
+                            android:maxLines="1"
+                            android:padding="5dp"
+                            android:textColor="@color/payment_text_color"
+                            android:textColorHint="@color/payment_text_color"
+                            android:textSize="20sp" />
+
+                        <Button
+                            android:id="@+id/btn_clear"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/payment_btn_clear" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center" >
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" >
+
+                            <EditText
+                                android:id="@+id/edt_card_seri"
+                                android:layout_width="250dp"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="5dp"
+                                android:background="@drawable/payment_input_bg"
+                                android:gravity="center_vertical"
+                                android:hint="@string/payment_card_serial_hint"
+                                android:imeOptions="flagNoExtractUi"
+                                android:inputType="textCapCharacters"
+                                android:maxLength="15"
+                                android:maxLines="1"
+                                android:padding="5dp"
+                                android:textColor="@color/payment_text_color"
+                                android:textColorHint="@color/payment_text_color"
+                                android:textSize="20sp" />
+
+                            <TextView
+                                android:id="@+id/txt_qplay_description"
+                                android:layout_width="250dp"
+                                android:layout_height="wrap_content"
+                                android:padding="5dp"
+                                android:textSize="15sp" />
+                        </LinearLayout>
+
+                        <Button
+                            android:id="@+id/btn_topup"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/payment_btn_topup" />
+                    </TableRow>
+                </TableLayout>
+
+                <TextView
+                    android:id="@+id/txt_message"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@id/card_main"
+                    android:layout_alignRight="@id/card_main"
+                    android:layout_below="@id/card_main"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/payment_message_bg"
+                    android:ellipsize="marquee"
+                    android:fadingEdge="horizontal"
+                    android:marqueeRepeatLimit="marquee_forever"
+                    android:singleLine="true"
+                    android:text="@string/payment_card_caption"
+                    android:textColor="@color/payment_title_text_color"
+                    android:textSize="20sp" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@id/layout_root"
+            android:background="@drawable/payment_btn_close" />
+    </RelativeLayout>
+
+</LinearLayout>

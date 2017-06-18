@@ -1,0 +1,33 @@
+<resources>
+
+    <!-- Thanh toán -->
+    <string name="payment_main_title">Thêm dollar chơi thêm vui</string>
+    <string name="payment_card_title">Nạp dollar qua thẻ cào</string>
+    <string name="payment_sms_item">&lt;font color=\'#128ed5\'>Nạp ngay 15.000 dollar bằng&lt;/font> &lt;font color=\'#0e526f\'> SMS&lt;/font> &lt;font color=\'#128ed5\'>giá 15.000 VNĐ&lt;/font></string>
+    <string name="payment_wapcharging_item">&lt;font color=\'#128ed5\'>Nạp 15.000 dollar bằng 15.000 VNĐ trong &lt;/font> &lt;font color=\'#0e526f\'>TK điện thoại&lt;/font></string>
+    <string name="payment_card_item">&lt;font color=\'#128ed5\'>Đổi dollar chơi game bằng thẻ cào giá ưu đãi &lt;/font> &lt;font color=\'#0e526f\'> SIÊU&lt;/font> &lt;font color=\'#128ed5\'> khuyến mãi&lt;/font></string>
+    <string name="payment_free_coin">&lt;font color=\'#128ed5\'>Free Coin&lt;/font></string>
+    <string name="payment_google_visa">&lt;font color=\'#128ed5\'>Google Visa&lt;/font></string>
+    <string name="payment_other_item">&lt;font color=\'#128ed5\'>Các hình thức thanh toán khác với nhiều ưu đãi siêu "&lt;/font> &lt;font color=\'#0e526f\'> HOT&lt;/font> &lt;font color=\'#128ed5\'>"&lt;/font></string>
+    <string name="payment_main_caption">Nhấp để lựa chọn phương thức thanh toán</string>
+    <string name="payment_card_caption">Nhấp để lựa chọn loại thẻ</string>
+    <string name="payment_vina">Nạp qua thẻ Vinaphone</string>
+    <string name="payment_mobi">Nạp qua thẻ Mobifone</string>
+    <string name="payment_viettel">Nạp qua thẻ Viettel</string>
+    <string name="payment_qplay">Nạp qua thẻ Qplay</string>
+    <string name="payment_sms_confirm_message">&lt;font color=#0fffff>Bạn có muốn gửi SMS &lt;/font>&lt;font color=#ffffff>15.000 VNĐ&lt;/font>&lt;br/> &lt;font color=#0fffff>để mua &lt;/font>&lt;font color=#ffffff>15.000 dollar&lt;/font> &lt;font color=#0fffff>không?&lt;/font></string>
+    <string name="payment_card_code_hint">Nhập mã thẻ</string>
+    <string name="payment_card_serial_hint">Nhập số Serial trên thẻ</string>
+    <string name="payment_description_scratch" formatted="false">Đổi dollar bằng thẻ cào:&lt;br>
+    20.000đ - 22.000dollar &lt;font color=#0fffff>(+10%)&lt;/font>;&lt;br>
+    50.000đ - 57.500dollar &lt;font color=#0fffff>(+15%)&lt;/font>;&lt;br>
+    100.000đ - 120.000dollar &lt;font color=#0fffff>(+20%)&lt;/font>;&lt;br>
+    200.000đ - 250.000dollar &lt;font color=#0fffff>(+25%)&lt;/font>;&lt;br>
+    500.000đ - 650.000dollar &lt;font color=#0fffff>(+30%)&lt;/font></string>
+    <string name="buy_game_text_wap">Bạn có muốn mua 15.000 dollar bằng 15.000 đồng trong tài khoản điện thoại của mình không?\nNhấn "khác" để được mua ưu đãi hơn!</string>
+	 <string name="payment_description_qplay" formatted="false"> &lt;font color=#00ffff>Mua thẻ  
+        SPlay nhận ngay từ hộp thư SMS bằng cách NHẤN VÀO ĐÂY, hoặc soạn tin:&lt;/font> &lt;br/> 
+        &lt;font color=#ffffff> [content] &lt;/font> &lt;font color=#00ffff> 
+        gửi&lt;/font> &lt;font color=#ffffff> [number] &lt;/font></string>
+
+</resources>

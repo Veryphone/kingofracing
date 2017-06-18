@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="payment_background">#99000000</color>
+    <color name="payment_dialog_background">#cc128ed5</color>
+    <color name="payment_button_bg_normal">#ffffff</color>
+    <color name="payment_button_bg_press">#dddddd</color>
+    <color name="payment_title_text_color">#ffffff</color>
+    <color name="payment_text_color">#128ed5</color>
+    <color name="payment_message_bg">#0f526f</color>
+    <color name="payment_message_text_color">#0fffff</color>
+
+</resources>
